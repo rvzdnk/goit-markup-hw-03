@@ -1,4 +1,13 @@
 /*Web Navigation*/
+.container{
+    width:1200px;
+}
+
+.section{
+padding-top:94px;
+padding-bottom:94px;
+}
+
 .navigation{
 width:1600px;
 height:80px;
