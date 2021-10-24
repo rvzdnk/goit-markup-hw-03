@@ -384,6 +384,7 @@ color: rgba(255, 255, 255, 0.6);
 .portfolio-buttons{
     display:flex;
     justify-content:center;
+    align-items: center;
 }
 .portfolio-buttons button{
     height: 38px;
@@ -431,7 +432,18 @@ color: rgba(255, 255, 255, 0.6);
     width: 121px;   
 }
 
+.pics-list{
+list-style: none;
+display:flex;
+flex-wrap:wrap;
+margin-right:-20px;
+margin-left:-20px;
 }
+
+.pics-list li{
+    flex-basis: calc(100%/3);
+}
+
 .portfolio-pics figure{
     width: 370px;
     height: 404px;
