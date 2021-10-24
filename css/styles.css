@@ -214,9 +214,15 @@ letter-spacing: 0.03em;
 
 color: #212121;    
 }
-.what-we-do{
-    display:flex;
-    justify-content: center;
+
+.what-we-do-list{
+display:flex;
+list-style: none;
+justify-content:center;
+}
+
+.what-we-do-list li{
+flex-basis: calc(100%/3);
 }
 
 .do1{
@@ -259,6 +265,10 @@ justify-content:center;
 display:flex;
 list-style: none;
 justify-content:center;
+}
+
+.team-container li {
+flex-basis:calc(100%/4)  
 }
 
 .team1{
@@ -321,11 +331,9 @@ color: #757575;
 /*Footer*/
 .footer{
 height: 252px;
-background: #2F303A; 
-
-display: flex;
-flex-direction:column;
-justify-content: center;
+background: #2F303A;
+padding-left:100px;
+padding-top: 50px;
 }
 
 .webstudio-footer{
@@ -445,6 +453,10 @@ flex-wrap:wrap;
 
 .pics-list li{
     flex-basis: calc(100%/3);
+}
+
+figure{
+    margin:0;
 }
 
 .portfolio-pics figure{
