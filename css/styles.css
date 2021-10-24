@@ -1,6 +1,6 @@
 /*Web Navigation*/
 .container{
-    width:1200px;
+width:1200px;
 }
 
 .section{
@@ -9,9 +9,9 @@ padding-bottom:94px;
 }
 
 .webnavi{
-    display:flex;
-    justify-content: space-around;
-    height:80px;
+display:flex;
+justify-content: space-around;
+height:80px;
 }
 .navigation{
 background-color: #fff;
@@ -202,20 +202,22 @@ color: #757575;
 
 /*What we do?*/
 .title-what-we-do{
-width: 352px;
-height: 42px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
+
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;    
+
 color: #212121;    
 }
 .what-we-do{
-    display:flex
+    display:flex;
+    justify-content: center;
 }
+
 .do1{
 width: 370px;
 height: 294px;  
@@ -235,20 +237,27 @@ height: 294px;
 .team{
 height: 648px;
 background: #F5F4FA;
-display:flex;  
 }
 
 .title-team{
-width: 210px;
-height: 42px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
+
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;    
+color: #212121; 
+
+display:flex;
+justify-content:center;
+}
+
+.team-container {
+display:flex;
+list-style: none;
+justify-content:center;
 }
 
 .team1{
@@ -280,7 +289,7 @@ width: 270px;
 height: 368px;
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;   
+border-radius: 0px 0px 4px 4px; 
 }
 
 .team-name{
@@ -291,7 +300,12 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;    
+color: #212121;
+
+display: flex;
+flex-flow: column;
+align-content: center;
+padding-top: 25px;
 }
 .team-position{
 font-family: Roboto;
@@ -306,7 +320,8 @@ color: #757575;
 /*Footer*/
 .footer{
 height: 252px;
-background: #2F303A;    
+background: #2F303A; 
+
 }
 .webstudio-footer{
 width: 145px;
@@ -366,19 +381,27 @@ color: rgba(255, 255, 255, 0.6);
 
 /*Portfolio*/
 /*Buttons*/
+.portfolio-buttons{
+    display:flex;
+    justify-content:center;
+}
 .portfolio-buttons button{
     height: 38px;
-    background: #F5F4FA;
-    border-radius: 4px;
+    
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
+    
     line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
+   
     color: #212121;
-    cursor:pointer; 
+    background: #F5F4FA;
+    border-radius: 4px;
+    
+    cursor:pointer;
 }
 
 .portfolio-buttons button:hover{
