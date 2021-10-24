@@ -12,6 +12,7 @@ padding-bottom:94px;
 display:flex;
 justify-content: space-around;
 height:80px;
+Border-bottom:1px solid #ECECEC;
 }
 .navigation{
 background-color: #fff;
@@ -325,9 +326,8 @@ background: #2F303A;
 display: flex;
 flex-direction:column;
 justify-content: center;
-
-
 }
+
 .webstudio-footer{
 width: 145px;
 height: 31px;
@@ -389,7 +389,7 @@ color: rgba(255, 255, 255, 0.6);
 .portfolio-buttons{
     display:flex;
     justify-content:center;
-    align-items: center;
+    align-items:center;
 }
 .portfolio-buttons button{
     height: 38px;
@@ -441,8 +441,6 @@ color: rgba(255, 255, 255, 0.6);
 list-style: none;
 display:flex;
 flex-wrap:wrap;
-margin-right:-20px;
-margin-left:-20px;
 }
 
 .pics-list li{
@@ -453,8 +451,7 @@ margin-left:-20px;
     width: 370px;
     height: 404px;
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .portfolio-title{
