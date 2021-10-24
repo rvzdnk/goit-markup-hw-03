@@ -322,6 +322,11 @@ color: #757575;
 height: 252px;
 background: #2F303A; 
 
+display: flex;
+flex-direction:column;
+justify-content: center;
+
+
 }
 .webstudio-footer{
 width: 145px;
