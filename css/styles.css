@@ -96,6 +96,13 @@ color: #757575;
 color: #2196F3;
 }
 
+.icon-mail{
+fill: #757575;    
+}
+
+.icon-mail:hover{
+fill: #2196F3;   
+}
 .contact-menu-tel{
 text-decoration:none;
 color: #757575;
@@ -103,19 +110,26 @@ color: #757575;
 .contact-menu-tel:hover{
     color: #2196F3;
     }
-
+        
+.icon-tel:hover {
+    stroke:#2196F3;   
+    }
 /*Main theme*/
 .theme-bg{
-height: 600px;
-background: #2F303A;
-
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
+background-image: url("/images/theme-bg.jpg"),
+linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4));
+object-fit: contain;
 }
 
 .theme{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center; 
+    height: 600px;
+}
+
+.theme-h{
 width: 696px;
 
 font-family: Roboto;
@@ -159,7 +173,7 @@ cursor: pointer;
 .description{
 display:flex;
 justify-content:space-between;
-padding-left: 60px;
+padding-left: 40px;
 }
 
 
@@ -223,6 +237,45 @@ justify-content:center;
 
 .what-we-do-list li{
 flex-basis: calc(100%/3);
+}
+
+.social-list {
+    list-style: none;
+    display:flex;
+    justify-content: center; 
+}
+
+.icon-instagram{
+    fill:#AFB1B8
+}
+
+.social-list-link{
+width:44px;
+height:44px;
+background-color:#FFFFFF;
+border-radius: 50%;
+display: flex; 
+justify-content: center; 
+align-items: center; 
+}
+
+.social-list-link:hover{
+  background: #2196F3;  
+}
+
+.icon-instagram:hover{
+    fill:#FFFFFF;
+}
+
+.icon-twitter:hover{
+    fill:#FFFFFF;   
+}
+
+.icon-facebook:hover{
+    fill:#FFFFFF;   
+}
+.icon-linkedin:hover{
+    fill:#FFFFFF;   
 }
 
 .do1{
