@@ -181,6 +181,16 @@ padding-left: 40px;
 width: 270px;
 }
 
+.rect{
+    border-radius: 4px;
+    background:#F5F4FA;
+    width:270px;
+    height:120px;
+    display:flex;
+    justify-content: center;
+    align-items:center;   
+}
+
 .p2{
 width: 270px;
 }
@@ -237,45 +247,6 @@ justify-content:center;
 
 .what-we-do-list li{
 flex-basis: calc(100%/3);
-}
-
-.social-list {
-    list-style: none;
-    display:flex;
-    justify-content: center; 
-}
-
-.icon-instagram{
-    fill:#AFB1B8
-}
-
-.social-list-link{
-width:44px;
-height:44px;
-background-color:#FFFFFF;
-border-radius: 50%;
-display: flex; 
-justify-content: center; 
-align-items: center; 
-}
-
-.social-list-link:hover{
-  background: #2196F3;  
-}
-
-.icon-instagram:hover{
-    fill:#FFFFFF;
-}
-
-.icon-twitter:hover{
-    fill:#FFFFFF;   
-}
-
-.icon-facebook:hover{
-    fill:#FFFFFF;   
-}
-.icon-linkedin:hover{
-    fill:#FFFFFF;   
 }
 
 .do1{
@@ -381,12 +352,129 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #757575;    
 }
+.social-list {
+    list-style: none;
+    display:flex;
+    justify-content: center; 
+}
+
+.icon-instagram{
+    fill:#AFB1B8
+}
+
+.social-list-link{
+width:44px;
+height:44px;
+background-color:#FFFFFF;
+border-radius: 50%;
+display: flex; 
+justify-content: center; 
+align-items: center; 
+}
+
+.social-list-link:hover{
+  background: #2196F3;  
+}
+
+.icon-instagram:hover{
+    fill:#FFFFFF;
+}
+
+.icon-twitter:hover{
+    fill:#FFFFFF;   
+}
+
+.icon-facebook:hover{
+    fill:#FFFFFF;   
+}
+.icon-linkedin:hover{
+    fill:#FFFFFF;   
+}
+/*Our clients*/
+.our-clients{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-clients{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;   
+}
+
+.clients-list{
+    list-style: none;
+    display:flex;
+}
+
+.clients-list li{
+    padding-left:20px;
+}
+
+.icon-client4{
+fill:#AFB1B8;
+}
+
+.client-list-link{
+width: 170px;
+height: 92px;
+
+border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.client-list-link:hover{
+border-color:#2196F3;
+}
+
+.icon-client1:hover{
+fill:#2196F3; 
+}
+
+.icon-client2:hover{
+fill:#2196F3; 
+}
+
+.icon-client3:hover{
+fill:#2196F3; 
+}
+
+.icon-client4:hover{
+fill:#2196F3; 
+}
+
+.icon-client5:hover{
+fill:#2196F3; 
+}
+
+.icon-client6:hover{
+fill:#2196F3; 
+}
 /*Footer*/
 .footer{
 height: 252px;
 background: #2F303A;
 padding-left:100px;
 padding-top: 50px;
+display:flex;
+space-between;
+}
+.join-us{
+display:flex;
+flex-direction:column;
+align-items: center;
+padding: 25px;
 }
 
 .webstudio-footer{
@@ -443,6 +531,57 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);    
+}
+
+.social-list-footer {
+    list-style: none;
+    display:flex;
+}
+
+.social-list-footer li{
+    padding-left:10px;
+}
+
+.h-join-us{   
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.icon-instagram-footer{
+    fill:#FFFFFF
+}
+
+.icon-twitter-footer{
+    fill:#FFFFFF
+}
+
+.icon-facebook-footer{
+    fill:#FFFFFF
+}
+
+.icon-linkedin-footer{
+    fill:#FFFFFF
+}
+
+.social-list-link-footer{
+width:44px;
+height:44px;
+background-color:rgba(255, 255, 255, 0.1);
+border-radius: 50%;
+display: flex; 
+justify-content: center;
+align-items: center; 
+}
+
+
+.social-list-link-footer:hover{
+  background: #2196F3;  
 }
 
 /*Portfolio*/
